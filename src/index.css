@@ -1,0 +1,24 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .static-width {
+        @apply max-w-6xl mx-auto px-8;
+    }
+    .hover {
+        @apply duration-300 hover:text-emerald-500;
+    }
+    .link-icon {
+        @apply h-8 w-8 bg-slate-700 rounded-md grid place-items-center text-xl text-slate-100 hover:bg-slate-900;
+    }
+}
