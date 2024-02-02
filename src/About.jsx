@@ -1,5 +1,5 @@
 import Title from "./components/Title";
-import img from "./assets/About.svg";
+import img from "./assets/about.svg";
 
 const About = () => {
     return (
